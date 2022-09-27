@@ -42,14 +42,14 @@ const Sidebar = () => {
 
     
     return (
-        <nav className='primary-nav flex flex-col  z-[3] relative'>
+        <nav className='primary-nav flex flex-col z-[10]  fixed top-0 bottom-0 w-[320px] '>
 
-            <div className="line text-white flex justify-start m-[1rem] md:ml-[1.5rem] w-14 absolute" onClick={open}>
+            <div className="line text-white flex justify-start m-[1rem] md:ml-[1.5rem] w-14 hover:cursor-pointer " onClick={open}>
                 <DensityMediumIcon></DensityMediumIcon>
 
             </div>
 
-            <div className="menu sidebar bg-black sm:m-4 fixed top-[4.4rem] md:top-[9.5rem] bottom-0 lg:left-0 p-2 w-[300px]  text-white overflow-clip hidden md:visible"  >
+            <div className="menu sidebar bg-black sm:m-4  lg:left-0 p-2 mt-[-3.5rem] md:mt-[-3.4rem] text-white overflow-clip hidden md:visible h-[100vh] "  >
 
 
                 <div className="flex justify-end " >
