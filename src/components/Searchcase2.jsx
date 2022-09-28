@@ -7,7 +7,7 @@ const Searchcase2 = () => {
     return (
         <div className="CaserMoral flex flex-col   bg-black rounded-[1rem] m-2 p-2 xl:w-[40rem] ">
             <div className=' text-center h-[3rem] bg-[#26003b]  rounded-[12px] p-2 w-[95%] ml-3 text-[1.5rem]'>Case: 124</div>
-            <div className="flex bg-[#001a00] rounded-[1rem] my-2 ">
+            <div className="flex flex-col sm:flex-row bg-[#001a00] rounded-[1rem] my-2 ">
 
                 <Summery></Summery>
                 <Criminals></Criminals>
