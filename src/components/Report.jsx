@@ -1,15 +1,18 @@
 import React from 'react'
+import Reportid from './Reportid'
+import Reports from './Reports'
 
 const Report = () => {
   return (
     <div id='Report' className="Report rounded-[2rem] m-2 md:w-[80%] md:ml-[20%] mt-[3rem]
-    lg:mt-1 h-[35rem] bg-slate-800">
-        <div className=' flex items-center flex-col  text-center'>
+    lg:mt-1 bg-slate-800 flex  flex-col xl:flex-row justify-evenly">
 
 
-            <h1 className='text-4xl md:text-[5rem] pt-[4rem] pb-[2rem] md:pt-52'>Report</h1>
+
+            <Reports></Reports>
+            <Reportid></Reportid>
            
-        </div>
+       
 
 
     </div>

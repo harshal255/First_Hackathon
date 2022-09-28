@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div id='Profile' className="Profile rounded-[1rem]  bg-slate-800 flex flex-col m-1 md:w-[80%] md:ml-[20%] xl:flex-row justify-evenly ">
       <SearchProfiles className="bg-black"></SearchProfiles>
-      <CaserMorals></CaserMorals>
+      <CaserMorals CaserMoral="Caser Morals"></CaserMorals>
       <KnownCrimes></KnownCrimes>
 
 

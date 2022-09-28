@@ -10,8 +10,8 @@ import DirectionsCarFilledIcon from '@mui/icons-material/DirectionsCarFilled';
 import PersonIcon from '@mui/icons-material/Person';
 import DescriptionIcon from '@mui/icons-material/Description';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
-import Dashboard from './Dashboard';
-import Profile from './Profile';
+// import Dashboard from './Dashboard';
+// import Profile from './Profile';
 
 
 
@@ -22,6 +22,7 @@ const Sidebar = () => {
         //    a.style.display ="hidden";
         document.querySelector(".menu").style.display = "none";
         document.querySelector(".line").style.visibility = "visible";
+        
        
         
 
@@ -42,7 +43,7 @@ const Sidebar = () => {
 
     
     return (
-        <nav className='primary-nav flex flex-col z-[10]  fixed top-0 bottom-0 w-[320px] '>
+        <nav className='primary-nav flex flex-col  sm:absolute top-1 md:top-[10rem] bottom-0 w-[320px] '>
 
             <div className="line text-white flex justify-start m-[1rem] md:ml-[1.5rem] w-14 hover:cursor-pointer " onClick={open}>
                 <DensityMediumIcon></DensityMediumIcon>

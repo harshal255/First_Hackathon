@@ -1,17 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
-
-
 import Profile from './components/Profile';
 import Report from './components/Report';
 import Vehicles from './components/Vehicles';
 import Missingperson from './components/MissingPerson';
 import Case from './components/Case';
-import Login from './components/Login';
+import Signin from './components/Signin';
 
 
 function App() {
@@ -25,7 +23,7 @@ function App() {
       <Sidebar></Sidebar>
         <Routes>
 
-          <Route path="/" element={<Login></Login>} />
+          <Route path="/" element={<Signin></Signin>} />
           <Route path="/dashboard" element={<Dashboard></Dashboard>} />
           <Route path="/profile" element={<Profile></Profile>} />
           
